@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GrandCalculator</string>
+    <string name="text_view">TextView</string>
+    <string name="gp">GP Calculator</string>
+    <string name="button_send">Open</string>
+    <string name="bmi">BMI Calculator</string>
+    <string name="select">Pick a Calculator</string>
+    <string name="courses">COURSES</string>
+    <string name="unit">UNIT LOAD</string>
+    <string name="grade">GRADE</string>
+    <string name="course_holder">Enter your course code/title</string>
+    <string name="calculate">Calculate</string>
+    <string name="serial_no">SERIAL NO</string>
+    <string-array name="grade_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+</resources>

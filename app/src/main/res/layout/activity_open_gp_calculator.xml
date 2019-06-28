@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenGpCalculatorActivity">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/headings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/serial_no"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/courses"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/unit"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/grade"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="1"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course1"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="2"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course2"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit2"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="3"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course3"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit3"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="4"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course4"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit4"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="5"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course5"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit5"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="6"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course6"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit6"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="7"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course7"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit7"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="8"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course8"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit8"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="9"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course9"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit9"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner9"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course10"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit10"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner10"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="11"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course11"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit11"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner11"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="12"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course12"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit12"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="13"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course13"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit13"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner13"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="14"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course14"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit14"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner14"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="15"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/course15"
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/unit15"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/grade_spinner15"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:onClick="print">
+
+            <Button
+                android:id="@+id/calculate_gp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_span="3"
+                android:text="@string/calculate"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
